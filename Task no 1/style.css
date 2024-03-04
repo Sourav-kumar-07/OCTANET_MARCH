@@ -1,0 +1,108 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Trirong", serif;
+}
+
+
+header {
+    width: 100%;
+    height :100vh;
+    background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.2)), url(task\ \ 1/);
+    background-size: cover;
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: solid;
+}
+
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+
+
+.menu a:hover:before{
+    width: 90%;
+    border: 1px solid indianred;
+}
+
+
+.register a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+
+.register a:hover {
+    border: 1px solid indianred;
+}
+
+
+.h-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.h-text span {
+    letter-spacing: 5px;
+}
+
+
+.h-text h1 {
+    font-size: 3.5rem;
+}
+
+
+.h-text a {
+    text-decoration: none;
+    color: #fff;
+    background: indianred;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.45s;
+}
+
+
+.h-text a:hover {
+    border: 1px solid indianred;
+    background: transparent;
+}
